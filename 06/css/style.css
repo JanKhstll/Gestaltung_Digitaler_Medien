@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #CCC;
+	color:#FFF;
+}
+
+#Logo {
+	width: 200px;
+	height:150px; 
+}
+
+#navi {
+	font-size:30pt;
+	color:#03F;
+	margin:30px;
+	}
+	
+# navi a {
+	background-color:black; 
+	padding:5px 10px;
+
+}
+
+#navi h1 {
+	font-family:Helvetica, Arial, sans-serif; 
+	font-size: 30pt;
+	text-align:center;  
+}
+
+#bigpic {
+	height:400px; 
+}
+
+#box1 {
+	color:#FFF
+}
+
+#box2 {
+	color:#FFF
+}
+

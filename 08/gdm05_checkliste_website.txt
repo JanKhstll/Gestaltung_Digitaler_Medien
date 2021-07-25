@@ -1,0 +1,12 @@
+Checkliste Website-Launch
+1. Favicon: -> favicon-generator.de
+2. Titles + Meta-Daten beachten  uni-tuebingen
+3. Cross-Browser-Checks: browsershots.org
+4. Texte korrekturlesen  
+5. Links kontrollieren (http:// davor)
+6. Funktionalität testen / User-Testing
+	mindestens 3-Leute
+7. Javascript aus / Bilder aus
+8. Analysen (google Analytics)
+9. XML-Sitemap  (www.xml-sitemaps.com/)
+10. Print Stylesheet, Mobile Stylesheet

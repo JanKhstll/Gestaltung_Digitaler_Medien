@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+#button1 {
+background: url(Bilder/Seite_Slicen_03.jpg) 0 0;
+height:50px;
+width:165px;
+display:block;
+}
+#button1:hover {
+background: url(Bilder/button.gif) 0 65px;
+}
+
+
+
+//<img src="Bilder/Seite_Slicen_03.jpg" width="165" height="50" border="0" alt="">

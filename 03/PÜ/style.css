@@ -1,0 +1,10 @@
+#button1 { 								
+background: url(button2.gif) 0 0;
+height:80px;
+width:400px;
+display:block;
+
+}
+#button1:hover {
+background: url(button2.gif) 0 80px;
+}

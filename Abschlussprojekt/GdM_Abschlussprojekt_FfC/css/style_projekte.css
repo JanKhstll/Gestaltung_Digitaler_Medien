@@ -1,0 +1,71 @@
+article	{
+	font-size: 18px;
+	line-height: 1.25em;
+}
+
+a {
+	text-decoration: underline;
+}
+a:hover {
+	color: #c6342e;
+	text-decoration: underline;
+}
+
+img {
+	margin: 1em;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	box-shadow: 5px 5px 15px #FFFFFF;
+	
+}
+
+table {
+	table-layout: fixed;
+}
+.nummer {
+	width: 15px;
+	text-align: right;
+}
+
+.spalte2 {
+	padding-left: 5px;
+	width: 150px;
+}
+
+.spalte3 {
+	width: 300px;
+}
+
+#linie {
+	background-color: #393939;
+}
+
+div.bild {
+	overflow: hidden;
+}
+div.bild p {
+	position: inherit;
+	bottom: 0px;
+	margin-bottom: -40px;
+	padding: 10px;
+	display: block;
+	width: inherit;
+	opacity: 0.7;
+	color: #fff;
+	background-color: #000;
+	line-height: 20px;
+ 	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+div.bild:hover p {
+	margin-bottom: 0px;
+}
+
+
+
+

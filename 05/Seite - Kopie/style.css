@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {font-family:Arial, Helvetica, sans-serif; } 
+
+
+#anlauftext
+{
+	font-style:italic;
+	font-size:18px;
+}
+
+#haupttext
+{
+	font-size:18px;
+}
+
+#newstext {
+	font-size:18px;
+}
+
+#index {
+	background: url(Bilder/Seite---Slicen-New_03.jpg) 0 0;
+	height:51px;
+	width:163px;
+	display:block;
+	}
+	#index:hover {
+	background: url(Bilder/Seite_ind_03.jpg) 0 0px;
+	}
+
+
+#images {
+		background: url(Bilder/Seite---Slicen-New_05.jpg) 0 0;
+	height:51px;
+	width:163px;
+	display:block;
+	}
+	#images:hover {
+	background: url(Bilder/Seite_images.jpg) 0 0px;
+	}
+
+#videos {
+	background: url(Bilder/Seite---Slicen-New_06.jpg) 0 0;
+	height:51px;
+	width: 171px;
+	display:block;
+}
+	#videos:hover {
+	background: url(Bilder/Seite_video.jpg) 0 0px;
+	}
+
+#konzeption {
+	background: url(Bilder/Seite---Slicen-New_07.jpg) 0 0;
+	height:51px;
+	width: 230px;
+	display:block;
+}
+	#konzeption:hover {
+	background: url(Bilder/Seite_konzeption.jpg) 0 0px;
+	}

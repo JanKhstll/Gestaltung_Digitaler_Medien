@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Fancy Box</title>
+
+
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.3" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.3"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    <style>
+        .toggler { width: 500px; height: 200px; position: relative; }
+        #button { padding: .5em 1em; text-decoration: none; }
+        #effect { width: 240px; height: 135px; padding: 0.4em; position: relative; background: #fff; }
+
+    </style>
+
+    <script>
+    $(function() {
+        var state = true;
+        $( "#button" ).click(function() {
+            if ( state ) {
+                $( "#effect" ).animate({
+                    backgroundColor: "#aa0000",
+                    color: "#fff",
+                    width: 500
+                }, 1000 );
+            } else {
+                $( "#effect" ).animate({
+                    backgroundColor: "#fff",
+                    color: "#000",
+                    width: 240
+                }, 1000 );
+            }
+            state = !state;
+        });
+    });
+    </script>
+
+
+
+</head>
+
+
+<body>
+
+//<script type="text/javascript">
+	//alert("Test"); 
+//	$(document).ready(function() {
+		//$("body").css("background-color","blue");
+        
+   // });
+	
+//</script>	
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$(".fancybox").fancybox({"closeBtn":false});
+});
+</script>
+
+<a class="fancybox" href="1_b.jpg">
+Hallo ich bin ein Text. </a>
+	
+
+Test, test
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(document).click(function() {
+			$("body").css("background-color","blue"); 
+		});
+	
+	});
+</script>
+
+<a class="fancybox" rel="group" href="1_b.jpg"><img src="small_image_1.jpg" alt="" /></a>
+<a class="fancybox" rel="group" href="2_b.jpg"><img src="small_image_2.jpg" alt="" /></a>
+
+
+<div class="toggler">
+    <div id="effect" class="ui-widget-content ui-corner-all">
+        <h3 class="ui-widget-header ui-corner-all">Animate</h3>
+        <p>
+            Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+        </p>
+    </div>
+</div>
+ 
+<a href="#" id="button" class="ui-state-default ui-corner-all">Toggle Effect</a>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+article {
+	text-align: center;
+	
+}
+
+/* --- image ----*/
+#26682924 {
+	width:auto;
+	height:auto;
+	float:center;
+	-webkit-box-shadow: rgba(0,0,0,.7) 5px 5px 10px;
+	-moz-box-shadow: 5px 5px 10px rgba(0,0,0,.7);
+	box-shadow: 5px 5px 10px rgba(0,0,0,.7);
+	
+}
+
+img {
+   padding:1px;
+   border:1px solid #021a40;
+}
+
+
+	
+
+/* --- font ----*/
+.strong {
+	font-size: 26px;
+	color: rgb(0,85,255);
+}
+
+.willkommen {
+	font-size: 0.8em;
+
+}
+
+.kleingedrucktes {
+	font-size: 10px;
+}
+
+.right {
+	float: center;
+}
+
+.news {
+	color: white;
+	font-size: 0.8em;
+	line-height: 1em;
+	display: block;
+	text-align: center;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 2em;
+	
+}
+
+
+
+.caption {
+	font-size: 110%;
+}

@@ -1,0 +1,96 @@
+/* ---- reset ------*/
+html, body, div, a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+
+#image4 {
+    background: url("../img/button1.jpg") 0 0;
+    height:10px;
+    width:300px;
+    display:block;
+
+
+    
+}
+
+#image4:hover{
+        background: url("../img/button1.jpg") 0 200px;
+}
+
+#icon {
+	
+	background: url("../img/sort_up.gif") 0 0;
+	height: 24px;
+	display:block;
+	width:24px;
+	margin-left:70px;
+	margin-top:-10%;
+	
+
+	
+
+}
+
+
+#icon:hover {
+	background: url(../img/sort_up.gif) 0 24px;
+}
+
+/* --- basic styles ----*/
+
+body {
+	font-family: 'ABeeZee', Arial, sans-serif;
+ 	font-size: 1.5em;
+ 	background-image:url("../img/bg1.png");
+	background-color:rgb(95, 146, 255);
+	background-repeat: repeat-x;
+}
+
+/* --- footer styles ----*/
+
+footer {
+	width: 100%;
+	list-style: none;
+	font-size: 15px;
+}
+
+.unwichtig {
+	padding-right: 2.5em;
+	padding-bottom: .5em;
+	float: right;
+	
+}
+.navi {
+	padding-bottom: .5em;
+	float: left;
+	word-spacing: .05em;
+}
+
+
+footer a {
+	text-decoration: none;
+	color: inherit;
+}
+
+footer a:hover {
+	color: #c6342e;
+	text-decoration: underline;
+}
+
+footer li {
+	display: inline;
+}
+
+
+
+#test {
+	style visibility:hidden;
+}

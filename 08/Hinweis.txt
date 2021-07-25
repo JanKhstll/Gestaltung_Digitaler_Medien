@@ -1,0 +1,3 @@
+Das Layout basiert von den Schritten der Erarbeitung zu einem nicht unerheblichen Teil auf diesem Tutorial:
+http://www.psdtemplate.com/psd-tutorials/create-an-elegant-photoshop-psd-template-for-wordpress.html
+allerdings handelt es sich bei meiner Version um keine 1 zu 1 Kopie. 

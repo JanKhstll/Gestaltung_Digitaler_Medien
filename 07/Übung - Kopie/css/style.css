@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'Trajan Pro';
+	 url('../fonts/TrajanPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	
+		font-family: 'Tengwar';
+	 url('../fonts/Tengwarc.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+body {
+	background-image:url(../img/bg-tile.jpg);
+	background-repeat:repeat-x;
+	background-color:#020202;
+}
+
+#Nav { position:absolute; top:50px; left:0; visibility:hidden; }
+#NavLinks { position:absolute; top:42px; left:42px; }
+#Nav a:link {color:#000080; font-weight:bold; font-size:13px; text-decoration:none; }
+#Nav a:visited { color:#000080; font-weight:bold; font-size:13px; text-decoration:none; }
+#Nav a:hover { color:#FFFFFF; background-color:#000080; font-weight:bold;
+  font-size:13px; text-decoration:none; }
+#Nav a:active { color:#000080; font-weight:bold; font-size:13px; text-decoration:none; }
+#Nav h2 {
+	font-family:Trajan Pro;
+	color:white;
+	font-size:20px;
+}
+#Nav p {
+	color:#FFF;
+	margin-right:10px;
+}
+
+
+
+#headerimage {
+	height:270px;
+	background-image:url(../img/gandalf.jpg);
+	float:center;
+	
+	
+
+}
+
+
+
+#logo {
+	height:142px;
+	background-image:url("../img/hobbit-logo.png");
+	margin-bottom:20px;
+}
+
+#navi {
+	height:70px;
+}
+
+#navi a {
+	font-family:Trajan Pro;
+	width:140px;
+	display:inline-block;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color:none;rgba(0,0,0,0.2);
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+	margin-left:10px;
+}
+
+#navi a:hover {
+	background-color:rgba(0,0,0,0.5);
+}
+
+#navi a.first {
+	margin-left:0px;
+}
+
+h1 {
+	color:white;
+}
+
+p {
+	color:white;
+}
+
+#elbisch {
+	font-family:Tengwar; 
+	font-size: 36pt;
+	margin-left:80px;
+	margin-top:10px;
+	color:white;
+}
+
+#plakat {
+	
+	height:400px;
+	padding-top:-10px;
+}
+
+footer {
+	padding-top:30px;
+	border-line: 10px;
+}

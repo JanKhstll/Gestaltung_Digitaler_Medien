@@ -1,0 +1,18 @@
+1. Gestaltung in Photoshop
+(Rastervorlage verwenden)
+
+2. Wenn Gestaltung fertig:
+alte Hilfslinien löschen (Ansicht >> Hilfslinien löschen)
+neue Hilfslinien ziehen aus Lineal am Rand
+
+3. Slicewerkzeug aktivieren: "Slices entlang der Hilfslinien"
+anschließend Slices kombinieren und URLS vergeben
+
+4. Export: Datei >> Für Web und Geräte speichern
+>> speichern als "Bilder und Text"
+
+5. Hintergrundfarbe anpassen, ggfs. Hintergrundfarben für Slices
+
+6. HTML-Dateien abspeichern (entsprechend den vergegebenen URLS
+
+7. Seite online stellen

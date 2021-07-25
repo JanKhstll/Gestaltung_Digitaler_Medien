@@ -1,0 +1,230 @@
+/* Meine Style CSS */
+
+
+
+
+body {
+    align-content:center;
+    align-items:center;
+    text-align:center;
+    float:center;
+    padding-top:3%;
+    padding-bottom:100px;
+    background-color: #F9F8F7;
+    color: #333333;
+/*	background-image:url("../img/Background2.jpg");
+	background-color:#22;
+	background-repeat:repeat-x;*/
+    font-family: 'Wire One','Yanone Kaffeesatz', Arial, sans-serif;
+}
+
+
+a {
+    text-decoration:none;
+}
+
+
+/* Header Bild */ 
+ header img {
+    height:300px;
+    
+
+}
+
+/*Test*/
+
+@media (max-width: 480px)  
+{ 
+body { 
+
+        }
+
+#navi a {
+	font-family:  Arial, sans-serif;
+    font-size:12pt;
+}
+
+#image1 {
+    display:none;
+    visibility:hidden;
+}
+
+#image2 {
+
+    visibility:hidden;
+}
+}
+
+@media (max-width: 1400px)  
+{ 
+    body {
+        padding-top:3%;
+        font-size:2em;
+        padding-bottom:1%;
+}
+
+     header img {
+        height:165px;
+    }
+    
+    #navi a {
+        font-size:24pt;
+    	padding-top:18pxpx;
+	   padding-bottom:18px;
+    }
+    
+    #navi {
+        height:10px;
+    }
+    
+
+
+
+}
+
+/*Ende media-query*/
+
+menu {
+    text-align:center;
+}
+
+#navi {
+	height:60px;
+}
+
+#navi a {
+	font-family: 'Wire One','Yanone Kaffeesatz', Arial, sans-serif;
+	width:110px;
+	display:inline-block;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color:none;rgba(0,0,0,0.2);
+	color:black;
+	text-decoration:none;
+	font-weight:regular;
+	margin-left:10px;
+	font-size:36px;
+}
+
+#navi a:hover {
+	background-color:rgba(0,0,0,0.5);
+}
+
+#navi a.first {
+	margin-left:0px;
+}
+
+
+h1 {
+  animation-duration: 2s;
+  animation-name: slidein;
+    -webkit-animation-duration: 2s;  
+    -webkit-animation-name: slidein;
+    text-align:center;
+}
+ 
+@keyframes slidein {
+  from {
+    margin-top: 120%;
+/*    width: 300%;*/
+  }
+ 
+  to {
+    margin-top: 0%;
+/*    width: 100%;*/
+  }
+}
+
+@-webkit-keyframes slidein {
+      from {
+    margin-top: 120%;
+/*    width: 300%;*/
+  }
+ 
+  to {
+    margin-top: 0%;
+/*    width: 100%;*/
+  }
+}
+
+#image1 {
+    background: url("../img/people2.png") 0 0;
+    height:200px;
+    width:382px;
+    display:block;
+
+
+    
+}
+
+#image1:hover{
+        background: url("../img/people2.png") 0 200px;
+}
+
+
+#image2 {
+    background: url("../img/button_plan.png") 0 0;
+    height:200px;
+    width:300px;
+    display:block;
+
+
+    
+}
+
+#image2:hover{
+        background: url("../img/button_plan.png") 0 200px;
+}
+
+#image3 {
+
+    height:200px;
+
+    
+}
+
+#image4 {
+    background: url("../img/button1.png") 0 0;
+    height:200px;
+    width:300px;
+    display:block;
+
+
+    
+}
+
+#image4:hover{
+        background: url("../img/button1.png") 0 200px;
+}
+
+
+#button1 {
+background: url(button.gif) 0 0;
+height:65px;
+width:400px;
+display:block;
+}
+#button1:hover {
+background: url(button.gif) 0 65px;
+}
+
+
+
+#table_main {
+    align-content:center;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+.caption_main {
+    font-size:30pt;
+    margin-top:10px;
+}
+
+tr {
+    margin:10px;
+}

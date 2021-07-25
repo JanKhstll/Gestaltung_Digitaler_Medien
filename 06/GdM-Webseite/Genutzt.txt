@@ -1,0 +1,5 @@
+Fonts:
+- http://www.fontsquirrel.com/fontfacedemo/bebas-neue
+
+Icons:
+ - http://www.defaulticon.com/

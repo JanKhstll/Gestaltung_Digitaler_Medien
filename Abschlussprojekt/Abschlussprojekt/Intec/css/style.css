@@ -1,0 +1,111 @@
+/* Meine Style CSS */
+
+
+
+
+body {
+
+    float:center;
+    padding-top:3%;
+    padding-bottom:100px;
+    background-color: #F9F8F7;
+    color: #333333;
+/*	background-image:url("../img/Background2.jpg");
+	background-color:#22;
+	background-repeat:repeat-x;*/
+    font-family:Arial;
+    margin-left:20px;
+}
+
+
+h1 {
+    font-size:50px;
+    font-family:Arial;
+    text-align:center;
+    color:darkgreen;
+        
+}
+
+a[href^="http://"], a[href^="https://"]  {
+	background:transparent url(external.png) center left no-repeat;
+	display:inline-block;
+	padding-left:15px;
+}
+
+a {
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+
+.container {
+    background-color:darkgrey;
+    width: 940px;
+    }
+
+.navigation {
+  width: 300px;
+    float:left;
+    margin-right:10px;
+}
+
+.content {
+    margin-left:302px;
+    width: 660px;
+    background-color:#fefefe;
+}
+
+footer {
+    width:960px;
+    background-color:#cacaca;
+}
+
+.footer {
+    width:960px;
+    background-color:#cacaca;
+}
+.highlightfielset {
+    background-color:#5c5957;
+    margin:2px;
+    max-width:30em;
+    padding:2px;
+    color:white;
+
+}
+
+.basicfieldset {
+    background-color:#b9b9b9;
+    margin:3px;
+    padding:2px;
+    max-width:30em;
+}
+
+.smallinput {
+    background-color:#d1d1d0;
+    min-width:20em;
+}
+    
+.wideinput {
+    background-color:#d1d1d0;
+    min-width:30em;
+}
+
+
+menu {
+    text-align:center;
+}
+
+h2,h3,h4,h5,h6 {
+    font-family: 'Wire One','Yanone Kaffeesatz', Arial, sans-serif;
+   
+}
+
+h5,h6 {
+    font-size:140%;
+}
+        
+ 
+
+tr {
+    margin:10px;
+}

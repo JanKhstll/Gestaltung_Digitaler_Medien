@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+*	{font-family:Arial, Helvetica, sans-serif;}
+#obenText {
+	background-image:url(Bilder/obenText.jpg);
+	color: #FFFFFF; 
+}
+
+#obenText h3{
+	font-size:14pt; 
+	color: #000000;
+	font-weight: bold;
+}
+
+#links_text {
+	background-image:url(Bilder/links_text.jpg);
+}
+
+
+#mitte_text {
+	background-image:url(Bilder/mitte_text.jpg);
+	//color: #FFFFFF; 
+}
+
+#rechts_text {
+	background-image:url(Bilder/rechts_text.jpg);
+	//color: #FFFFFF; 
+	
+}

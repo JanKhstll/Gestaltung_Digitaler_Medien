@@ -1,0 +1,73 @@
+/* --- kontakt style ----*/
+
+article	{
+	font-size: 18px;
+}
+
+
+.caption {
+	font-size: 110%;
+	font-weight: bold;
+	color: #084B8A;
+}
+
+.icon-small {
+	width:1.5em;
+	height:1.5em;
+	vertical-align: -.35em;
+	border:none;
+}
+
+
+img {
+   padding:1px;
+   border:1px solid #021a40;
+}
+
+.legend {
+	position: relative;
+	width: auto;
+	height: auto;
+	margin-bottom: 80px;
+}
+.legend .description {
+	display: none
+}
+.legend:hover .description {
+	display: block;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 8px;
+	width: 148px;
+	height: 10%;
+	background: #ececec;
+	opacity: .75;
+}
+.legend p {
+	line-height: 1.25em;
+	text-align: center;
+	font-size: 10pt;
+	vertical-align: middle;
+}
+
+html,body {
+              height:100%;
+}
+            
+#wrapper {
+              position:relative;
+              width:900px;
+              min-height:100%;
+              height:auto !important;
+              height:100%;
+              margin:0 auto -80px;
+}
+ 
+#footer {
+              position:relative;
+              width:900px;
+              height:80px;
+              margin:0 auto;
+}
+

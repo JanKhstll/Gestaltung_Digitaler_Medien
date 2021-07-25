@@ -1,0 +1,8 @@
+1. Grundstruktur HTML (+CSS bzw. JS)
+	- So dass alles geladen wird
+2. Bereiche mit divs aufbauen
+	- Id's vergeben (eindeutig!)
+	- Passend für die Spaltenanzahl
+3. Styles für die divs definieren
+4. Inhalt gestalten
+5. Styles anpassen

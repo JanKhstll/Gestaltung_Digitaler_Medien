@@ -1,0 +1,21 @@
+/* --- impressum style ----*/
+article	{
+	font-size: 18px;
+}
+
+.caption {
+	font-size: 110%;
+	font-weight: bold;
+	color: rgb(0,85,255);
+}
+
+.name {
+	font-size:108%;
+}
+
+.icon-small {
+	width:1.5em;
+	height:1.5em;
+	vertical-align: -.35em;
+}
+

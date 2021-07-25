@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+		<link rel="icon" href="img/headerFav.png" type="image/png">    
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen" charset="utf-8"/>
+		<link rel="stylesheet" href="css/style_start.css" type="text/css" media="screen" charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap-responsive.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
+
+<title>Get Started</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="span3">
+                <a href="Home.html" id="logo"></a>
+            </div>
+            <div class="span5">
+            </div> 
+            <div class="span3" >
+                <nav> <a href="Home.html">Home</a><br />
+                    <a href="begin.html">Starten</a><br />
+                    <a href="join.html">Beitreten</a><br />
+                    <a href="sonstiges.html">About</a>
+                </nav>
+            </div>
+         </div>   
+    </header>
+    
+    
+<!--        Beitreten-->
+
+
+    
+    <div class="container">
+            <legend></legend>
+
+
+            <div class="span2">                 
+                <p>
+                   <a id="button_join" href="#" onclick="document.getElementById('veranstaltung').style.visibility = 'visible';  return false;">
+<!--                       document.getElementById('button_join' && 'button_new').style.visibility = 'hidden'; falls man es doch noch braucht-->
+                   </a>
+                </p>    
+            </div>
+            <form name="Formular" action="event.php" method="post" enctype="text/html"> 
+                <div id="veranstaltung">
+                    <br />
+                        <h1>Veranstaltung beitreten</h1>
+                        <label>Veranstaltungscode <br />
+                            <input type="text" name="code" required="required" value=""/>
+                            </label>
+                    
+                      <input class="btn btn-success" type="submit" name="" value="Öffnen" />  
+                            
+                        
+                
+                 </div>
+            
+            </form>
+            
+            
+        </div>        
+        <br />
+    
+    
+    <div class="container">
+
+
+        <div class="span2">
+            <a id="button_new" href="#" onclick=" document.getElementById('example').style.visibility = 'visible'; document.getElementById('hidden').style.visibility = 'visible';return false;" ></a>
+        </div>
+
+            <div class="zentriert">
+    
+    <form name="Formular2" action="event.php" method="post" enctype="text/html" id="hidden">    
+        <fieldset>
+        <p style="visibility: hidden;" id="example">
+            <legend><h1>Neue Veranstaltung</h1></legend>
+<!--            Name-->
+            <label>Veranstaltungsname<br />
+                <input type="text" name="new_name" required="required"/>
+            </label>
+
+                    <div class="span9">    
+<!--            Artikel-->
+              <div class="span3"></div>
+                    <div class="span2">
+                        <label>Artikel <br />
+                            <input type="text" name="artikel1" />
+                        </label>
+                      </div> 
+                      <div class="span2">  
+                        <label class="menge">Menge <br />
+                            <input type="text" name="menge1" />
+                        </label>
+                       </div> 
+                        <div class="clearfix"></div>
+                <div class="span3"></div>
+                    <div class="span2">
+                        <label>Artikel <br />
+                            <input type="text" name="artikel2" />
+                        </label>
+                      </div> 
+                      <div class="span2">  
+                        <label class="menge">Menge <br />
+                            <input type="text" name="menge2" />
+                        </label>
+                       </div> 
+                        <div class="clearfix"></div>            
+                <div class="span3"></div>         
+                    <div class="span2">
+                        <label>Artikel: <br />
+                            <input type="text" name="artikel3" />
+                        </label>
+                      </div> 
+                      <div class="span2">  
+                        <label class="menge">Menge <br />
+                            <input type="text" name="menge3" />
+                        </label>
+                       </div> 
+                        <div class="clearfix"></div>
+                <div class="span3"></div>
+                    <div class="span2">
+                        <label>Artikel <br />
+                            <input type="text" name="artikel4" />
+                        </label>
+                      </div> 
+                      <div class="span2">  
+                        <label class="menge">Menge <br />
+                            <input type="text" name="menge4" />
+                        </label>
+                       </div> 
+                        <div class="clearfix"></div>                  
+                
+             </div>
+            <input type="hidden" name="action" value="4" />
+<!--            Button-->
+            <input class="btn btn-success" type="submit" value="Erstellen" />
+   
+    
+        </p>   
+        </fieldset>
+    </form>
+        
+
+        
+    
+    
+    
+                
+
+
+   
+</body>
+</html>

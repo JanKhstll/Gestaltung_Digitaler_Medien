@@ -1,0 +1,213 @@
+/* Meine Style CSS */
+
+
+
+
+body {
+    align-content:center;
+    align-items:center;
+    text-align:center;
+    float:center;
+    padding-top:100px;
+    padding-bottom:100px;
+    background-color: #F9F8F7;
+    color: #333333;
+/*	background-image:url("../img/Background2.jpg");
+	background-color:#22;
+	background-repeat:repeat-x;*/
+    font-family: 'Wire One','Yanone Kaffeesatz', Arial, sans-serif;
+    line-height:1.3;
+}
+
+fieldset {
+
+    text-align:center;
+    display:block;
+
+}
+
+
+.first_row {
+    margin-left:-28px;
+    display:block;
+
+}
+
+
+#button_new {
+    background: url("../img/button2.png") 0 0;
+    height:200px;
+    width:300px;
+    display:block;
+    visibility:visible;
+
+}
+
+#button_new:hover{
+        background: url("../img/button2.png") 0 200px;
+}
+
+#button_join {
+    background: url("../img/button2.png") 0 0;
+    height:200px;
+    width:300px;
+    display:block;
+    visibility:visible;
+
+}
+#button_join:hover{
+        background: url("../img/button2.png") 0 200px;
+}
+
+
+
+/*Animation*/
+
+.animation {
+-webkit-animation-name: cssAnimation;
+-webkit-animation-duration:3s;
+-webkit-animation-iteration-count: 1;
+-webkit-animation-timing-function: ease;
+-webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes cssAnimation {
+from {
+-webkit-transform: visible;
+}
+to {
+-webkit-transform: hidden;
+}
+}
+
+
+.ausblenden {
+        width:100px;
+        height:100px;
+        background:transparent;    
+        animation:myfirst 5s;
+        -moz-animation:myfirst 2s; /* Firefox */
+        -webkit-animation:myfirst 5s; /* Safari and Chrome */
+        -o-animation:myfirst 5s; /* Opera */
+}
+
+@keyframes myfirst
+{
+from {background:red;}
+to {background:yellow;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+from {background:green;}
+to {background:transparent;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+from {background:green;}
+to {background:transparent;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+from {background:red;}
+to {background:yellow;}
+}
+
+
+
+legend {
+    font-size:20pt;
+    margin-top:10px;
+}
+
+label {
+    font-size:14pt;
+  
+}
+
+h1 {
+  animation-duration: 2s;
+  animation-name: slidein;
+    -webkit-animation-duration: 2s;  
+    -webkit-animation-name: slidein;
+    text-align:center;
+}
+ 
+@keyframes slidein {
+  from {
+    margin-top: 120%;
+/*    width: 300%;*/
+  }
+ 
+  to {
+    margin-top: 2%;
+/*    width: 100%;*/
+  }
+}
+
+@-webkit-keyframes slidein {
+      from {
+    margin-top: 120%;
+/*    width: 300%;*/
+  }
+ 
+  to {
+    margin-top: 2%;
+/*    width: 100%;*/
+  }
+}
+
+#logo {
+    background: url("../img/Header_Small.png") 0 0;
+    height:100px;
+    width:216px;
+    display:block;
+
+}
+
+p {
+    text-align:center;
+}
+
+nav a {
+    font-size:18pt;
+    text-decoration:none;
+    color:black;
+    line-height:1.2;
+}
+
+nav {
+    text-align:right;
+}
+
+
+#button1 {
+background: url(button.gif) 0 0;
+height:65px;
+width:400px;
+display:block;
+}
+#button1:hover {
+background: url(button.gif) 0 65px;
+}
+
+
+
+
+#table_main {
+    align-content:center;
+    animation-duration: 2s;
+    animation-name: slidein;
+    font-size:16pt;
+}
+
+.caption_main {
+    font-size:30pt;
+    margin-top:10px;
+}
+
+tr {
+    margin:10px;
+}
